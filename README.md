@@ -1,107 +1,172 @@
-C Programming Assignment – DSA Practice in C
+🧑‍🎓 Student Information
 
-Government Engineering College Kishanganj
-Department of Computer Science and Engineering
+Name: Achintya Singh
 
-Overview
+Course: B.Tech
 
-This repository contains my C programming assignment solutions provided by
-Government Engineering College Kishanganj as part of the core programming curriculum.
+Semester: 3rd Semester
 
-The objective of this repository is to demonstrate practical understanding of:
+Subject: C Programming & Data Structures
 
-Fundamental C programming concepts
+College: Government Engineering College, Kishanganj
 
-Problem solving using algorithms
+Email: achintyasingh48@gmail.com
 
-Array and string manipulation
+GitHub Repository: https://github.com/Aryaswapnil07/DSA_COLLEGE.git
 
-Mathematical and logical computations
+Platform: Linux (Ubuntu)
 
-All programs are implemented in standard C and tested on a Linux environment.
+📂 Repository Structure
+DSA_COLLEGE/
+├── arrays/
+│   ├── second_largest.c
+│   ├── frequency.c
+│   ├── rotate_array.c
+│   ├── palindrome_array.c
+│   └── shift_zeros.c
+│
+├── strings/
+│   ├── count_vowels.c
+│   └── reverse_string.c
+│
+├── math/
+│   ├── armstrong.c
+│   └── sin_series.c
+│
+├── patterns/
+│   └── number_pattern.c
+│
+└── README.md
 
-Development Environment
 
-Language: C
+(Folder names may vary based on assignments given by faculty.)
+
+🛠️ Technologies Used
+
+Programming Language: C
 
 Compiler: GCC
 
-Platform: Linux (Ubuntu/Debian based)
+Operating System: Linux (Ubuntu 20.04+)
 
-Only the following header files are used across the project:
+Tools/Editor: VS Code / Terminal
 
-#include <stdio.h>
-#include <math.h>
+⚙️ How to Compile and Run (Linux)
 
+Make sure GCC is installed:
 
-No additional libraries are included, as per academic guidelines.
-
-How to Run (Linux)
-1. Install GCC
 sudo apt update
 sudo apt install gcc
-sudo apt install build-essential
-gcc --version
 
-2. Compile a Program
+
+Compile a program:
+
 gcc filename.c -o output
 
 
-Example:
+Run the program:
 
-gcc program.c -o program
-
-3. Execute
 ./output
 
-
 Example:
+gcc armstrong.c -o armstrong
+./armstrong
 
-./program
-Key Concepts Implemented
+📌 List of Programs Implemented
+1. Array Programs
 
-Conditional statements
+Find second largest and second smallest element
 
-Loops and iterations
+Count frequency of each element
 
-Functions and modular code
+Rotate array by K positions
 
-Mathematical computations
+Check whether an array is palindrome
 
-Array processing
+Shift all zeros to the end
 
-String manipulation
+2. String Programs
 
-In-place algorithms
+Count vowels and total characters
 
-Input/output handling
+Reverse string without using extra array
 
-Academic Purpose
+3. Mathematical Programs
 
-This repository is maintained for:
+Armstrong number
 
-College assignment submission
+Maclaurin series for sin(x)
 
-Lab practice reference
+4. Pattern Programs
 
-Exam preparation
+Number and alphabet pattern printing
 
-Strengthening core programming skills
+🎯 Learning Outcomes
 
-Code Quality
+Through this assignment, I learned:
 
-Follows standard C conventions
+Fundamentals of C programming
 
-Clean and readable structure
+Implementation of arrays, strings, and loops
 
-No unnecessary libraries
+Use of conditional statements and functions
 
-Optimized for clarity and correctness
+Working with mathematical series
 
-Compatible with GCC compiler
+Compiling and executing programs on Linux
 
-Author
+Writing structured and readable code
 
-Swapnil Arya
-B.Tech – Computer Science Engineering
-Government Engineering College Kishanganj
+Using Git & GitHub for version control
+
+🧪 Tested Environment
+
+All programs are tested on:
+
+OS: Ubuntu 20.04 LTS
+
+Compiler: GCC 11+
+
+Programs compile and run successfully on Linux.
+
+📸 Sample Output
+Enter number: 153
+153 is an Armstrong number
+
+Input: 1 2 0 4 0 5
+Output: 1 2 4 5 0 0
+
+📚 How to Use This Repository
+
+Clone the repository:
+
+git clone https://github.com/Aryaswapnil07/DSA_COLLEGE.git
+
+
+Move into the directory:
+
+cd DSA_COLLEGE
+
+
+Compile and run any program using GCC.
+
+🧾 Declaration
+
+This repository is created for academic purposes only as part of the C Programming & DSA coursework for the 3rd semester at Government Engineering College, Kishanganj.
+
+All programs are implemented by me for learning and practice.
+
+⭐ Acknowledgements
+
+Faculty of C Programming & DSA, GEC Kishanganj
+
+Linux & GCC Documentation
+
+GeeksforGeeks and TutorialsPoint (for reference)
+
+📬 Contact
+
+Achintya Singh
+📧 Email: achintyasingh48@gmail.com
+
+🐙 GitHub: https://github.com/Aryaswapnil07
